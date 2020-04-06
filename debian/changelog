@@ -1,3 +1,9 @@
+prepare-checkbox-sanity (1.0.6) bionic; urgency=medium
+
+  * disable apt update for sanity check
+
+ -- Kai-Chuan Hsieh <kaichuan.hsieh@canonical.com>  Mon, 06 Apr 2020 10:36:45 +0800
+
 prepare-checkbox-sanity (1.0.5) bionic; urgency=medium
 
   * remove the dependency of sru

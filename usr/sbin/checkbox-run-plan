@@ -2,7 +2,7 @@
 set -x
 
 
-EXCLUDE=".*usb/storage-preinserted .*suspend/usb_storage_preinserted_after_suspend .*stress/cpu_stress_ng_test .*disk/disk_stress_.*"
+EXCLUDE=".*usb/storage-preinserted .*suspend/usb_storage_preinserted_after_suspend .*stress/cpu_stress_ng_test .*disk/disk_stress_.* .*install/apt-get-gets-updates"
 DEF_ENV="/etc/default/prepare-checkbox-sanity.conf"
 source $DEF_ENV
 
